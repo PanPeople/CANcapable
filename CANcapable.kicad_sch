@@ -4668,6 +4668,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "100nF for evey VDD and 4.7uF at common point"
+		(exclude_from_sim no)
+		(at 195.834 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b0f8230-43ea-4cce-b405-10d7f7962951")
+	)
+	(text "Decoupling"
+		(exclude_from_sim no)
+		(at 167.132 18.034 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "24a6cbd6-2af8-4dd1-a761-58ca60c69323")
+	)
 	(text "CAN 1"
 		(exclude_from_sim no)
 		(at 182.88 106.68 0)
@@ -4699,16 +4722,46 @@
 		(uuid "0924de83-b646-4dfe-a03d-a58f7fd3e9b5")
 	)
 	(junction
+		(at 176.53 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "096c0539-53b6-488f-b5d4-d0ba1619d115")
+	)
+	(junction
+		(at 222.25 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b6e29c7-b141-4ed0-af62-6c88931f5875")
+	)
+	(junction
 		(at 29.21 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d3ef9ab-8ecd-4e1c-8663-541089aed97a")
 	)
 	(junction
+		(at 210.82 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e89d304-3b2e-487b-80c6-57025121ec9c")
+	)
+	(junction
 		(at 226.06 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ea2ab96-975d-4ae5-9380-a56891595e9c")
+	)
+	(junction
+		(at 60.96 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29d7e2f5-f922-492c-be72-beb048026861")
+	)
+	(junction
+		(at 176.53 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a8090de-31fe-4d3b-8bad-9c72d321eb0c")
 	)
 	(junction
 		(at 72.39 127)
@@ -4723,10 +4776,28 @@
 		(uuid "45f7226f-8f07-4893-b37b-b34cc473db4e")
 	)
 	(junction
+		(at 187.96 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c4c742c-7b2a-4690-b437-b6d01034564f")
+	)
+	(junction
+		(at 199.39 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51d45357-8b2b-4377-8b6d-bd8264e3636c")
+	)
+	(junction
 		(at 200.66 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52e521ff-ff57-42b0-b5e6-de9f6012d7cc")
+	)
+	(junction
+		(at 210.82 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b4a8376-1e88-422c-b765-0698acfd0579")
 	)
 	(junction
 		(at 88.265 181.61)
@@ -4741,16 +4812,64 @@
 		(uuid "8339caef-ab06-4f92-8b64-b9d058a593e3")
 	)
 	(junction
+		(at 24.13 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85efb028-1333-4998-86d4-98a99706841e")
+	)
+	(junction
+		(at 199.39 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c915d83-f43d-4839-88cc-2c0cb9972057")
+	)
+	(junction
 		(at 58.42 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f5dafa1-eee8-41a1-88fe-cde3b4dc8865")
 	)
 	(junction
+		(at 187.96 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9ed7960-18c9-49fd-9614-7ff2689bf720")
+	)
+	(junction
+		(at 222.25 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcab5f2c-bf27-4316-9b5a-beb5e994c1c4")
+	)
+	(junction
+		(at 38.1 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c19f9be3-49bd-4c96-9e75-59dba9b3f94f")
+	)
+	(junction
 		(at 214.63 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c776e5b9-dd41-407a-9671-fbdd5029ff97")
+	)
+	(junction
+		(at 60.96 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7c33017-77ae-4d88-824c-a79d135bbe40")
+	)
+	(junction
+		(at 124.46 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9a5d62b-dede-48b6-b518-422cf0a2bc3d")
+	)
+	(junction
+		(at 165.1 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db51f37f-db11-474f-8e29-67f77d8c6204")
 	)
 	(junction
 		(at 187.96 134.62)
@@ -4763,6 +4882,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec66d592-88dc-4216-a575-4bbe6f79c183")
+	)
+	(junction
+		(at 165.1 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f92f54f5-2a2e-4af1-a1c3-63a7212c0265")
 	)
 	(no_connect
 		(at 190.5 123.19)
@@ -4800,6 +4925,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 30.48) (xy 165.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08354d3b-b52d-4f4e-8eb9-ce92f8ddce3b")
+	)
+	(wire
+		(pts
 			(xy 179.07 120.65) (xy 190.5 120.65)
 		)
 		(stroke
@@ -4807,6 +4942,26 @@
 			(type default)
 		)
 		(uuid "09da0abc-366d-420a-91ad-7404ab4af888")
+	)
+	(wire
+		(pts
+			(xy 124.46 105.41) (xy 124.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc1941c-01dc-41c4-aee1-7efa3337a90f")
+	)
+	(wire
+		(pts
+			(xy 222.25 36.83) (xy 222.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b24fd7-6145-4753-a09c-bc7d4b13b266")
 	)
 	(wire
 		(pts
@@ -4830,6 +4985,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 31.75) (xy 199.39 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f1da05-26f9-45c9-9424-8bb90442f23c")
+	)
+	(wire
+		(pts
 			(xy 163.83 109.855) (xy 163.83 109.22)
 		)
 		(stroke
@@ -4837,6 +5002,26 @@
 			(type default)
 		)
 		(uuid "1649fded-497f-4e1b-a2a5-87cef4b32814")
+	)
+	(wire
+		(pts
+			(xy 210.82 30.48) (xy 222.25 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a536560-59bd-499a-ad30-af8f33215efa")
+	)
+	(wire
+		(pts
+			(xy 176.53 38.1) (xy 165.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a71d344-13f4-4125-ae29-ef80cb72dbae")
 	)
 	(wire
 		(pts
@@ -4857,6 +5042,16 @@
 			(type default)
 		)
 		(uuid "1f34ef46-5c04-4c08-8329-427f298f70a4")
+	)
+	(wire
+		(pts
+			(xy 176.53 31.75) (xy 176.53 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e190cf-41ef-4e8f-8526-535d06d7f355")
 	)
 	(wire
 		(pts
@@ -4950,6 +5145,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 30.48) (xy 233.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48189b61-5c63-4f38-bc5c-c5ce3f0ceb14")
+	)
+	(wire
+		(pts
+			(xy 165.1 30.48) (xy 165.1 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d2c98b-7e6b-4f91-b150-4a6b4146fe81")
+	)
+	(wire
+		(pts
 			(xy 114.3 172.72) (xy 128.27 172.72)
 		)
 		(stroke
@@ -4970,6 +5185,26 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 91.44) (xy 34.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b737a9f-3f57-4c59-94e7-beefb461ae33")
+	)
+	(wire
+		(pts
+			(xy 210.82 36.83) (xy 210.82 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c75fac5-098b-4e22-aef2-cae204193cc7")
+	)
+	(wire
+		(pts
 			(xy 58.42 127) (xy 58.42 127.635)
 		)
 		(stroke
@@ -4977,6 +5212,36 @@
 			(type default)
 		)
 		(uuid "50ee245f-614f-4622-a78a-4ce8fe404870")
+	)
+	(wire
+		(pts
+			(xy 210.82 30.48) (xy 199.39 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a1ae85-c37c-4984-a3fa-501a943506e7")
+	)
+	(wire
+		(pts
+			(xy 210.82 31.75) (xy 210.82 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548aa53f-c294-4898-91b0-2050f52d1002")
+	)
+	(wire
+		(pts
+			(xy 187.96 31.75) (xy 187.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e00d9b-3795-4dd4-8e36-0105e927edd5")
 	)
 	(wire
 		(pts
@@ -5000,6 +5265,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 36.83) (xy 233.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca7a50b-18b4-412b-8e8d-9b03f2da0446")
+	)
+	(wire
+		(pts
 			(xy 181.61 139.7) (xy 181.61 137.16)
 		)
 		(stroke
@@ -5020,6 +5295,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 88.9) (xy 24.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4b2b2c-c5de-413d-8842-fe792edc0aa8")
+	)
+	(wire
+		(pts
 			(xy 114.3 190.5) (xy 128.27 190.5)
 		)
 		(stroke
@@ -5027,6 +5312,26 @@
 			(type default)
 		)
 		(uuid "5f88cfde-3ae5-4e87-9413-7c8e7917715f")
+	)
+	(wire
+		(pts
+			(xy 222.25 31.75) (xy 222.25 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa26b05-0954-47b0-83d4-0ba6b3d89b46")
+	)
+	(wire
+		(pts
+			(xy 24.13 88.9) (xy 24.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b5d468-f346-4a9e-89a8-db069ab6bba7")
 	)
 	(wire
 		(pts
@@ -5040,6 +5345,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 36.83) (xy 165.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674f87fc-3a33-4f9d-9824-746104e1b4c8")
+	)
+	(wire
+		(pts
 			(xy 214.63 116.84) (xy 214.63 123.19)
 		)
 		(stroke
@@ -5047,6 +5362,26 @@
 			(type default)
 		)
 		(uuid "6b0efd2d-de5c-446e-b230-c56561dc4c36")
+	)
+	(wire
+		(pts
+			(xy 60.96 49.53) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1643e4-21f1-4909-bded-b91496eb16a2")
+	)
+	(wire
+		(pts
+			(xy 60.96 36.83) (xy 69.85 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe454a1-c496-4d30-b2d8-33d22ebe35d5")
 	)
 	(wire
 		(pts
@@ -5080,6 +5415,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 30.48) (xy 199.39 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73708cd1-ea68-46f4-8560-aa0ec0604138")
+	)
+	(wire
+		(pts
 			(xy 200.66 139.7) (xy 200.66 142.24)
 		)
 		(stroke
@@ -5087,6 +5432,16 @@
 			(type default)
 		)
 		(uuid "76bde93c-7482-4978-a479-9956ad384ff0")
+	)
+	(wire
+		(pts
+			(xy 165.1 38.1) (xy 165.1 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776b9a23-9908-415b-bf94-4470df606182")
 	)
 	(wire
 		(pts
@@ -5100,6 +5455,26 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 38.1) (xy 199.39 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d868b4-6193-45a9-aa1b-a08a45b22095")
+	)
+	(wire
+		(pts
+			(xy 60.96 49.53) (xy 69.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790f669a-8ec5-4635-84bd-41725f06be1f")
+	)
+	(wire
+		(pts
 			(xy 187.96 125.73) (xy 187.96 134.62)
 		)
 		(stroke
@@ -5110,6 +5485,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 86.36) (xy 34.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b71627-3e85-461d-b685-b0ecdf82fb41")
+	)
+	(wire
+		(pts
 			(xy 173.99 114.935) (xy 173.99 116.205)
 		)
 		(stroke
@@ -5117,6 +5502,26 @@
 			(type default)
 		)
 		(uuid "83de4dd4-d64d-4b3a-8802-29442825a7e5")
+	)
+	(wire
+		(pts
+			(xy 199.39 36.83) (xy 199.39 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c04a58-7abc-4ce7-89a0-9b61c9338b1e")
+	)
+	(wire
+		(pts
+			(xy 60.96 39.37) (xy 69.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b753687-8e4a-4250-bc7c-7c057053dede")
 	)
 	(wire
 		(pts
@@ -5140,6 +5545,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 38.1) (xy 199.39 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9055c8ab-d310-490c-b9a1-d6bf1918fd01")
+	)
+	(wire
+		(pts
 			(xy 29.21 190.5) (xy 29.21 194.31)
 		)
 		(stroke
@@ -5160,6 +5575,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 38.1) (xy 222.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92fb4411-31c2-4124-84f2-19bd0c967a96")
+	)
+	(wire
+		(pts
+			(xy 187.96 36.83) (xy 187.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966b7247-0b8a-45ff-8408-5b09df13ffb3")
+	)
+	(wire
+		(pts
 			(xy 49.53 136.525) (xy 58.42 136.525)
 		)
 		(stroke
@@ -5167,6 +5602,16 @@
 			(type default)
 		)
 		(uuid "97b5feda-3044-49e9-a0c7-42de27907fc2")
+	)
+	(wire
+		(pts
+			(xy 124.46 105.41) (xy 125.73 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d64aab3-3c71-4836-b1e0-97d36097a2b6")
 	)
 	(wire
 		(pts
@@ -5187,6 +5632,16 @@
 			(type default)
 		)
 		(uuid "a0fc79fb-29f8-400a-af8a-75ddf8404d73")
+	)
+	(wire
+		(pts
+			(xy 165.1 29.21) (xy 165.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7663680-191d-4240-a167-ef9731f69dab")
 	)
 	(wire
 		(pts
@@ -5240,6 +5695,26 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 88.9) (xy 24.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f4d239-fe65-4701-8cf1-4306c751bbf1")
+	)
+	(wire
+		(pts
+			(xy 60.96 44.45) (xy 60.96 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b4c412-af0b-40a0-9b3e-4d2586317219")
+	)
+	(wire
+		(pts
 			(xy 226.06 120.65) (xy 236.22 120.65)
 		)
 		(stroke
@@ -5270,6 +5745,26 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 44.45) (xy 69.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc76aff7-dcaa-4ee5-b249-9c51ec9a3dff")
+	)
+	(wire
+		(pts
+			(xy 38.1 69.85) (xy 45.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcc41a35-798c-4c76-9da1-997daead0e8a")
+	)
+	(wire
+		(pts
 			(xy 39.37 136.525) (xy 39.37 135.89)
 		)
 		(stroke
@@ -5280,6 +5775,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 92.71) (xy 21.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be226cfc-cad0-4587-ac09-782b363a83dc")
+	)
+	(wire
+		(pts
 			(xy 29.21 184.15) (xy 29.21 185.42)
 		)
 		(stroke
@@ -5287,6 +5792,16 @@
 			(type default)
 		)
 		(uuid "c924b477-f51b-48a6-9afc-16d22b6283af")
+	)
+	(wire
+		(pts
+			(xy 123.19 105.41) (xy 124.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb30f81-615a-4be6-9d74-a328e67b7e31")
 	)
 	(wire
 		(pts
@@ -5310,6 +5825,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 73.66) (xy 38.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5cfce2a-2254-4377-a3c5-5a1481c24620")
+	)
+	(wire
+		(pts
 			(xy 57.15 127) (xy 58.42 127)
 		)
 		(stroke
@@ -5327,6 +5852,26 @@
 			(type default)
 		)
 		(uuid "d6f7ce67-fd4e-4af6-94c7-532988010733")
+	)
+	(wire
+		(pts
+			(xy 176.53 36.83) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf036c9-4b38-4ce9-8615-5359fc96ba53")
+	)
+	(wire
+		(pts
+			(xy 187.96 30.48) (xy 176.53 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df58fe94-7350-4053-bc7f-0835f9b336b6")
 	)
 	(wire
 		(pts
@@ -5410,6 +5955,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 38.1) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa0f062-0f58-4e08-a11e-0bd466c558af")
+	)
+	(wire
+		(pts
 			(xy 236.22 105.41) (xy 243.84 105.41)
 		)
 		(stroke
@@ -5417,6 +5972,36 @@
 			(type default)
 		)
 		(uuid "efd623bc-9e76-47ea-a78a-0684cb3c08fb")
+	)
+	(wire
+		(pts
+			(xy 222.25 38.1) (xy 233.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d44b1e-3bf4-44ef-afdd-835cca4380c6")
+	)
+	(wire
+		(pts
+			(xy 60.96 31.75) (xy 69.85 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14f1de8-67b4-4eb0-8190-dd58b419a129")
+	)
+	(wire
+		(pts
+			(xy 233.68 31.75) (xy 233.68 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55502cb-99d4-4459-9b20-fa7c51b4294e")
 	)
 	(wire
 		(pts
@@ -5437,6 +6022,16 @@
 			(type default)
 		)
 		(uuid "fdc65bb7-691e-485e-af5d-7c952f4d3b5b")
+	)
+	(label "CC1"
+		(at 34.29 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05fe1303-9887-4df6-b94d-e4f452ec6801")
 	)
 	(label "CAN_1_L"
 		(at 236.22 123.19 180)
@@ -5508,6 +6103,16 @@
 		)
 		(uuid "2f3c4bbe-51d7-4923-ac19-da73bc4ca776")
 	)
+	(label "USB_DP"
+		(at 69.85 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33d92b4a-ebba-4d76-bfb8-e2bee8aa0d4f")
+	)
 	(label "FDCAN1_RX-"
 		(at 229.87 149.86 0)
 		(effects
@@ -5568,6 +6173,16 @@
 		)
 		(uuid "525e1334-178a-4830-92e5-2011b3ead036")
 	)
+	(label "CC2"
+		(at 34.29 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c56182f-fd07-4b97-8a60-03cf299300ce")
+	)
 	(label "FDCAN1_TX+"
 		(at 229.87 147.32 0)
 		(effects
@@ -5607,6 +6222,16 @@
 			(justify left bottom)
 		)
 		(uuid "88443d71-8c31-44e0-817d-02cce4639da4")
+	)
+	(label "USB_DN"
+		(at 69.85 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c321d4b-1984-4740-b1fb-4cb1f933338a")
 	)
 	(label "FDCAN1_TX"
 		(at 179.07 118.11 0)
@@ -5657,6 +6282,26 @@
 			(justify right bottom)
 		)
 		(uuid "b29ef0d3-ee5d-4dbf-9d59-339cbbb07f26")
+	)
+	(label "CC2"
+		(at 69.85 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b712a8ae-8082-4e2b-96db-18fd94c42545")
+	)
+	(label "CC1"
+		(at 69.85 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c77556e0-7f6b-46c8-8a18-9bc5ee922e80")
 	)
 	(label "GND"
 		(at 49.53 139.7 180)
@@ -6044,6 +6689,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 210.82 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22350315-fd25-4987-bcb4-67bd8e39fe2e")
+		(property "Reference" "C23"
+			(at 213.106 32.2642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 213.106 34.8042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/585/MLCC-1837944.pdf"
+			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PIN 24"
+			(at 215.392 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STORE" "https://www.mouser.pl/ProductDetail/Samsung-Electro-Mechanics/CL10A475KP8NNNC?qs=hqM3L16%252BxlfQRmkWsZz5vA%3D%3D"
+			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62006f92-3fbd-4b8f-88e3-e5090fcc3ee2")
+		)
+		(pin "2"
+			(uuid "faff93ef-6d74-4c0e-b64c-0574ac937360")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 181.61 134.62 0)
 		(unit 1)
@@ -6126,6 +6857,72 @@
 			(project "CANcapable"
 				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24729a82-a969-4ebf-9317-425c535d1920")
+		(property "Reference" "#PWR030"
+			(at 165.1 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fa3029c-d21b-4870-9f14-68b95e443712")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6786,7 +7583,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 214.63 46.99 0)
+		(at 248.92 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6795,7 +7592,7 @@
 		(fields_autoplaced yes)
 		(uuid "51561b34-66ec-42ad-bd9c-c9c1b1a9c642")
 		(property "Reference" "J2"
-			(at 217.17 45.7199 0)
+			(at 251.46 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +7601,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 217.17 48.2599 0)
+			(at 251.46 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +7610,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
-			(at 214.63 46.99 0)
+			(at 248.92 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +7619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 46.99 0)
+			(at 248.92 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +7628,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 214.63 46.99 0)
+			(at 248.92 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,6 +7649,168 @@
 			(project ""
 				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 233.68 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "516e2853-371b-4907-b338-fc092d764ef0")
+		(property "Reference" "C25"
+			(at 236.22 31.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 236.22 34.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/585/MLCC-1837944.pdf"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STORE" "https://www.mouser.pl/ProductDetail/Samsung-Electro-Mechanics/CL10A475KP8NNNC?qs=hqM3L16%252BxlfQRmkWsZz5vA%3D%3D"
+			(at 233.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DSC" "ANY VDD"
+			(at 236.22 36.8362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "50a2806b-a85e-409e-a69c-296011a5575c")
+		)
+		(pin "2"
+			(uuid "225aa2f6-7dd3-4f73-863b-0af3a8540dbc")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 165.1 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a1f8e0f-dc52-4bfa-94a8-c32efa6e0d9f")
+		(property "Reference" "#PWR029"
+			(at 165.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 165.1 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73e2011d-a9cc-449f-a1d1-b23d504cd10f")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6921,6 +7880,72 @@
 			(project "CANcapable"
 				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 69.85 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e39267f-5a3c-475e-9776-120a871d112e")
+		(property "Reference" "#PWR017"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 69.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2801e22d-b30d-43d3-a41e-98c6b95a4a28")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7264,6 +8289,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 38.1 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f6908af-e10a-4ed5-b4c9-c80d470be48a")
+		(property "Reference" "#PWR027"
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12b80ced-4377-4dfb-b246-37ce2a86643e")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 261.62 31.75 0)
 		(unit 1)
@@ -7482,6 +8573,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 26.67 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c11c85c-3e86-4633-98c4-7120f979c572")
+		(property "Reference" "R6"
+			(at 26.67 96.4184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 26.67 94.107 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WF06P-10K-5%"
+			(at 26.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fe6c6f3-e21c-4248-bcf0-3c9d4c8f73d7")
+		)
+		(pin "2"
+			(uuid "87c4ee8f-cb30-4087-b5a6-8327750b7867")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 72.39 127 0)
 		(unit 1)
@@ -7605,6 +8773,178 @@
 			(project "CANcapable"
 				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
 					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 199.39 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97265f23-0100-4661-86dd-45d1770be448")
+		(property "Reference" "C22"
+			(at 202.438 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 201.93 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 199.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/585/MLCC-1837944.pdf"
+			(at 199.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PIN 21"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 199.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STORE" "https://www.mouser.pl/ProductDetail/Samsung-Electro-Mechanics/CL10A475KP8NNNC?qs=hqM3L16%252BxlfQRmkWsZz5vA%3D%3D"
+			(at 199.39 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b4e5466-b91d-4c4d-8425-e1ed9095c3f5")
+		)
+		(pin "2"
+			(uuid "f8cc1593-f01e-40a8-991f-2e29cb1ca7b7")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 187.96 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9857ae5a-a89f-423c-894f-3cdf34b52c46")
+		(property "Reference" "C21"
+			(at 190.246 32.2642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 190.246 34.8042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/585/MLCC-1837944.pdf"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PIN 36"
+			(at 192.532 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STORE" "https://www.mouser.pl/ProductDetail/Samsung-Electro-Mechanics/CL10A475KP8NNNC?qs=hqM3L16%252BxlfQRmkWsZz5vA%3D%3D"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c19a6735-15a8-4b9c-8505-92e51ed09b14")
+		)
+		(pin "2"
+			(uuid "25322988-482d-4752-b471-99876353c559")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8188,6 +9528,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 21.59 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1bcf01b-05fe-403f-b269-c3fb00dd8ccd")
+		(property "Reference" "#PWR026"
+			(at 21.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36c22eb5-6aab-49c2-898d-b2a62117af9b")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 163.83 116.205 0)
 		(unit 1)
@@ -8254,8 +9660,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 124.46 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6199c7d-e0f2-4512-a286-1d8c3c7cdc89")
+		(property "Reference" "#PWR028"
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25f03a38-8c58-4705-ad3c-b0387385197d")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32G4:STM32G431C8Tx")
-		(at 107.95 69.85 0)
+		(at 123.19 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8264,7 +9736,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd8f2043-df94-4493-a337-d9d046b8762b")
 		(property "Reference" "U1"
-			(at 112.6333 110.49 0)
+			(at 127.8733 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +9745,7 @@
 			)
 		)
 		(property "Value" "STM32G431C8Tx"
-			(at 112.6333 113.03 0)
+			(at 127.8733 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +9754,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 92.71 107.95 0)
+			(at 107.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,7 +9764,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g431c8.pdf"
-			(at 107.95 69.85 0)
+			(at 123.19 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,7 +9773,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 38 GPIO, LQFP48"
-			(at 107.95 69.85 0)
+			(at 123.19 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8542,6 +10014,169 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 26.67 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1e206ee-abe7-4ccb-a08f-9e0165570d05")
+		(property "Reference" "R4"
+			(at 26.67 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 26.67 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WF06P-10K-5%"
+			(at 26.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3b18c1f-90ed-440e-946a-3860b9864c85")
+		)
+		(pin "2"
+			(uuid "e2354f5a-d055-4787-811b-a9edafd5d064")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 176.53 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e850a751-0ab9-4380-b571-50737b0ecbee")
+		(property "Reference" "C20"
+			(at 179.578 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 179.07 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/585/MLCC-1837944.pdf"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PIN 1"
+			(at 181.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STORE" "https://www.mouser.pl/ProductDetail/Samsung-Electro-Mechanics/CL10A475KP8NNNC?qs=hqM3L16%252BxlfQRmkWsZz5vA%3D%3D"
+			(at 176.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33227b09-542a-43fa-8005-ea40974fff0e")
+		)
+		(pin "2"
+			(uuid "1691caf8-3a3f-4985-9b70-ee4412c23791")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 195.58 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8683,6 +10318,178 @@
 			(project "CANcapable"
 				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 165.1 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4ad18ab-aa1b-43af-adfb-bfac86ac46bd")
+		(property "Reference" "C19"
+			(at 167.894 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.386 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/585/MLCC-1837944.pdf"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PIN 48"
+			(at 170.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STORE" "https://www.mouser.pl/ProductDetail/Samsung-Electro-Mechanics/CL10A475KP8NNNC?qs=hqM3L16%252BxlfQRmkWsZz5vA%3D%3D"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14b94868-f5d6-4f97-834b-97e6bffe0aac")
+		)
+		(pin "2"
+			(uuid "6f840788-2937-4e3b-88f8-ebd03298492f")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 222.25 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f73fd76c-4a1c-46d4-8c5a-1126ac2fcd64")
+		(property "Reference" "C24"
+			(at 224.536 32.2642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 224.536 34.8042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/585/MLCC-1837944.pdf"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PIN 20"
+			(at 226.822 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10A475KP8NNNC"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STORE" "https://www.mouser.pl/ProductDetail/Samsung-Electro-Mechanics/CL10A475KP8NNNC?qs=hqM3L16%252BxlfQRmkWsZz5vA%3D%3D"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e72ce017-cfdc-46ba-ab0b-74e5b92044a2")
+		)
+		(pin "2"
+			(uuid "69a95676-d5d4-41dd-a161-47079d048aca")
+		)
+		(instances
+			(project "CANcapable"
+				(path "/21b4bc81-584d-4ba9-94c7-0db9ea0aeff0"
+					(reference "C24")
 					(unit 1)
 				)
 			)
